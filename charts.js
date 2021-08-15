@@ -130,26 +130,18 @@ function buildCharts(sample) {
 
    // Deliverable 3: Create a Gauge Chart
    // 1. Create a variable that filters the metadata array for the object with the desired sample number.
-   var metadataIdSamples = data.metadata.filter(data => data.id == sample);
-   console.log(metadataIdSamples);
+    var metadataIdSamples = data.metadata.filter(data => data.id == sample);
+    console.log(metadataIdSamples);
     // Create a variable that holds the first sample in the array.
-  
+    var metadataIdSamples = data.metadata.filter(data => data.id == sample);
+    console.log(metadataIdSamples);
 
     // 2. Create a variable that holds the first sample in the metadata array.
-    
-
-    // Create variables that hold the otu_ids, otu_labels, and sample_values.
-
+    var metadatafirstSample = metadataIdSamples[0];
+    console.log(metadatafirstSample);
 
     // 3. Create a variable that holds the washing frequency.
-   
-    // Create the yticks for the bar chart.
-
-    // Use Plotly to plot the bar data and layout.
-    Plotly.newPlot();
-    
-    // Use Plotly to plot the bubble data and layout.
-    Plotly.newPlot();
+    var wfreq = metadataIdSamples[0].wfreq
    
     
     // 4. Create the trace for the gauge chart.
