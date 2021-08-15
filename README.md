@@ -8,4 +8,4 @@ In this project Plotly.js library was used to create an interactive data visuali
 
 [**https://bayan-daux.github.io/Bellybutton\_Biodiversity/**](https://bayan-daux.github.io/Bellybutton_Biodiversity/)
 
-![](result.png)
+![](https://github.com/Bayan-daux/Bellybutton_Biodiversity/blob/main/result.PNG)
