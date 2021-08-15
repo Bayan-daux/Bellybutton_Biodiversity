@@ -124,8 +124,8 @@ function buildCharts(sample) {
       hovermode: "closest",
       xaxis: { title: "OTU ID" },
       margin: { t: 30},
-      plot_bgcolor: "lightyellow",
-      paper_bgcolor: "lightyellow"
+      plot_bgcolor: "lightgreen",
+      paper_bgcolor: "lightgreen"
     };
 
     // 3. Use Plotly to plot the data with the layout.
@@ -177,8 +177,8 @@ function buildCharts(sample) {
       width: 500, 
       height: 425, 
       margin: { t: 0, b: 0 },
-      plot_bgcolor: "lightyellow",
-      paper_bgcolor: "lightyellow"
+      plot_bgcolor: "lightgreen",
+      paper_bgcolor: "lightgreen"
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
